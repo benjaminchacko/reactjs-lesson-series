@@ -3,7 +3,7 @@ import React from 'react'
 const name = "Ben Chacko";
 
 const App = () => {
-    return <div>Hello {name}!</div>
+    return <h1>Hello {name}!</h1>
   };
 
 export default App

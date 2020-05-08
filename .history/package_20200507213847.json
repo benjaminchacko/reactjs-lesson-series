@@ -4,7 +4,7 @@
   "description": "A React JS Lesson Series",
   "main": "./index.js",
   "scripts": {
-    "build": "parcel build index.html",
+    "build": "parcel index.html",
     "start": "parcel index.html -p 8080"
   },
   "keywords": [
