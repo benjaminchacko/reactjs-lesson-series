@@ -1,0 +1,26 @@
+{
+  "name": "react-lesson-series",
+  "version": "1.0.0",
+  "description": "A React JS Lesson Series",
+  "main": "./index.js",
+  "scripts": {
+    "build": "parcel index.html",
+    "start": "parcelindex.html -p 8080"
+  },
+  "keywords": [
+    "React JS",
+    "Parcel Bundler"
+  ],
+  "author": "Benjamin Chacko",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}
