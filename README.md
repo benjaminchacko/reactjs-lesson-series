@@ -1,4 +1,4 @@
-# React Parcel Lesson Series
+# React JS with Parcel Lesson Series
 ### Language(s): React JS
 
 This repository is the full code with my youtube video series: [React JS](https://www.youtube.com/playlist?list=PLWUQJ519A7tdSDCeS729NLUAcLW81sLIH)
@@ -12,7 +12,7 @@ This repository is the full code with my youtube video series: [React JS](https:
 
 <p>Lesson #2: 
 <ul>
-<li>Branch:<a href="https://github.com/benjaminchacko/reactjs-lesson-series/tree/lesson-2">Lesson #2</a> </li>
+<li>Branch: <a href="https://github.com/benjaminchacko/reactjs-lesson-series/tree/lesson-2">Lesson #2</a> </li>
 <li>Video:  [To Be Uploaded]</li>
 </ul>
 </p> 
