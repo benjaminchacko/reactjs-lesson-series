@@ -5,7 +5,7 @@ import ShoppingList from './components/shoppingList'
 export const App = () => {
     return (
         <Fragment>
-            <Counter />
+
             <ShoppingList />
         </Fragment>
     )

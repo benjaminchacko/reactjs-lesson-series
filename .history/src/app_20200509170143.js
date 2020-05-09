@@ -1,11 +1,9 @@
 import React, { Fragment } from 'react'
-import { Counter } from './components/counter'
-import ShoppingList from './components/shoppingList'
+import { Counter, ShoppingList } from './components/counter'
 
 export const App = () => {
     return (
         <Fragment>
-            <Counter />
             <ShoppingList />
         </Fragment>
     )
