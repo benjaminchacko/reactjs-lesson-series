@@ -3,7 +3,7 @@ import React from 'react'
 const name = "Ben Chacko";
 
 // arrow function - export default - Option #1 in index.js
-/*
+/* 
 const App = () => {
     return (
         <React.Fragment>
@@ -35,3 +35,4 @@ export default App;
         </React.Fragment>
     )
 } */
+

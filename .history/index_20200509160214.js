@@ -18,6 +18,10 @@ import React from "react";
 // render(<App />, rootElement);
 
 
+// Importing a "export default"
+// import App from './app.js'
+
+
 
 
 

@@ -3,8 +3,6 @@ import React from "react";
 // import ReactDOM from "react-dom";
 
 // Option #1
-// Importing a "export default"
-// import App from './app.js'
 // const rootElement = document.querySelector("#root");
 // ReactDOM.render(<App />, rootElement);
 
@@ -12,11 +10,14 @@ import React from "react";
 // import {render} from "react-dom";
 
 // Option #2
-// Importing a " inline export"
-// import { App } from './app.js'
-// const rootElement = document.querySelector("#root");
 // render(<App />, rootElement);
 
+
+// Importing a "export default"
+// import App from './app.js'
+
+// Importing a " inline export"
+import { App } from './app.js'
 
 
 

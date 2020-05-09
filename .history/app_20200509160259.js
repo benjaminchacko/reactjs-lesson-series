@@ -2,8 +2,28 @@ import React from 'react'
 
 const name = "Ben Chacko";
 
-// arrow function - export default - Option #1 in index.js
-/*
+// inline export - single line - arrow function - Option #2 in index.js
+// export const App = () => <div>Hello {name}!</div>
+
+// inline export - function declaration
+/* export function App(){
+    return (
+        <div>Hello {name}!</div>
+    )
+} */
+
+// arrow function using fragment
+/* export const App = () => {
+    return (
+        <React.Fragment>
+            <p>Hello {name}!</p>
+            <p>Hello Friend!</p>
+        </React.Fragment>
+    )
+} */
+
+// arrow function - export default
+/* 
 const App = () => {
     return (
         <React.Fragment>
@@ -15,23 +35,3 @@ const App = () => {
 
 export default App;
 */
-
-// inline export - single line - arrow function - Option #2 in index.js
-// export const App = () => <div>Hello {name}!</div>
-
-// inline export - function declaration - Option #2 in index.js
-/* export function App(){
-    return (
-        <div>Hello {name}!</div>
-    )
-} */
-
-// arrow function using fragment - Option #2 in index.js
-/* export const App = () => {
-    return (
-        <React.Fragment>
-            <p>Hello {name}!</p>
-            <p>Hello Friend!</p>
-        </React.Fragment>
-    )
-} */
