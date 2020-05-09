@@ -24,7 +24,7 @@ This repository is the full code with my youtube video series: [React JS](https:
 </ul>
 </p> 
 
-<p>Lesson #4: ShoppingList App with useReducer Hook
+<p>Lesson #4: Shopping List App with useReducer Hook
 <ul>
 <li>Branch: <a href="https://github.com/benjaminchacko/reactjs-lesson-series/tree/lesson-4">Lesson #4</a> </li>
 <li>Video: [To Be Uploaded]</li>
