@@ -12,7 +12,7 @@ This repository is the full code with my youtube video series: [React JS](https:
 
 <p>Lesson #2: 
 <ul>
-<li>Branch: </li>
+<li>Branch:<a href="https://github.com/benjaminchacko/reactjs-lesson-series/tree/lesson-2">Lesson #2</a> </li>
 <li>Video:  [To Be Uploaded]</li>
 </ul>
 </p> 
