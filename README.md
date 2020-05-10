@@ -1,5 +1,5 @@
 # React JS with Parcel Lesson #4: Shopping List with useReducer Hook
-Live Code: <a href="https://reactjs-lessonseries.netlify.app/"> Lesson #4</a>
+
 #### Key Points
 * 
 
