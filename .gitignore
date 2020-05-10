@@ -9,6 +9,8 @@
 /.cache
 
 # misc
+/.netlify
+/.history
 .DS_Store
 .env.local
 .env.development.local
