@@ -1,0 +1,20 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: #503d81;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #f8f8f8;
+}
+
+.nav-links, a {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: white;
+}
