@@ -29,7 +29,7 @@ This repository is the full code with my youtube video series: [React JS](https:
         </tr>
         <tr>
             <td>#3</td>
-            <td>wCounter App with useState Hook</td>
+            <td>Counter App with useState Hook</td>
             <td><a href="https://github.com/benjaminchacko/reactjs-lesson-series/tree/lesson-3">Lesson #3</a> </td>
             <td>[To Be Uploaded]</td>
         </tr>
