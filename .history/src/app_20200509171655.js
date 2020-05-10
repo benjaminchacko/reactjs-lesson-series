@@ -8,7 +8,6 @@ export const App = () => {
     return (
         <Fragment>
             <Counter />
-            <hr />
             <ShoppingList />
         </Fragment>
     )

@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import { Counter } from './components/counter'
-import { ShoppingList } from './components/shoppingList'
+import ShoppingList from './components/shoppingList'
 
 import './assets/css/app.css'
 

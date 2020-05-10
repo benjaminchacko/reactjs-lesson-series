@@ -1,5 +1,5 @@
 import React, { useReducer, useRef, Fragment } from "react";
-import { Button} from 'react-bootstrap'
+import { Button } from 'react-bootstrap'
 
 export const ShoppingList = () => {
   const inputRef = useRef();
@@ -17,7 +17,7 @@ export const ShoppingList = () => {
         return state.filter((_, index) => index != action.index);
       case 'clear':
         return [];
-      default:
+        default:
         return state;
     }
   }, []);
@@ -29,8 +29,6 @@ export const ShoppingList = () => {
       name: inputRef.current.value
     });
     inputRef.current.value = "";
-
-
   };
 
   return (
@@ -41,7 +39,7 @@ export const ShoppingList = () => {
         <button onClick={addValue}>Submit</button>
       </form>
       <button onClick={
-        () => dispatch({ type: 'clear' })
+        () => dispatch({type: 'clear'})
       }>Clear</button>
 
       <ul>
@@ -49,11 +47,11 @@ export const ShoppingList = () => {
           <li key={item.id}>
             {item.name}
             <Button variant="danger" onClick={() => dispatch({ type: 'remove', index })}>
-              X
+               X
             </Button>
           </li>
         ))}
       </ul>
     </Fragment>
-  )
+  );
 };
