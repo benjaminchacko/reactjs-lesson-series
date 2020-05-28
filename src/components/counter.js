@@ -1,5 +1,5 @@
 // Counter with React.useState Hook
-/* import React from 'react';
+import React from 'react';
 
 export const Counter = () => {
     const [count, setCount] = React.useState(0);  
@@ -20,7 +20,7 @@ export const Counter = () => {
             <button onClick={subtractTen}>Subtract Ten</button>
         </React.Fragment>
     )
-} */
+}
 
 
 // Counter with React.useReducer Hook
