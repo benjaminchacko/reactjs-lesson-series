@@ -1,23 +1,23 @@
-import React, { useState, Fragment } from 'react';
+import React from 'react';
 
 export const Counter = () => {
-    const [count, setCount] = useState(0);
+    const [count, setCount] = React.useState(0);  
+    
+    const addOne = () => setCount(count + 1);
+    const addFive = () => setCount(count + 5);
+    const subtractOne = () => setCount(count - 1);
+    const subtractTen = () => setCount(count - 10);
+    
+    
     return (
-        <Fragment>
+        <React.Fragment>
             <h1>Counter</h1>
             <p>You have clicked: {count} times</p>
-            <button onClick={() => setCount(count + 1)}>
-                Add One
-            </button>
-            <button onClick={() => setCount(count + 5)}>
-                Add Five
-            </button>
-            <button onClick={() => setCount(count - 1)}>
-                Subtract One
-            </button>
-            <button onClick={() => setCount(count - 10)}>
-                Subtract Ten
-            </button>
-        </Fragment>
+            <button onClick={addOne}> Add One</button>
+            <button onClick={addFive}>Add Five</button>
+            <button onClick={subtractOne}>Subtract One</button>
+            <button onClick={subtractTen}>Subtract Ten</button>
+        </React.Fragment>
     )
 }
+
