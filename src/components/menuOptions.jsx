@@ -1,4 +1,3 @@
-// Counter with React.useState Hook
 import React from 'react';
 
 const useLocalState = (localItem) => {
