@@ -2,7 +2,7 @@
   "name": "react-lesson-series",
   "version": "1.0.0",
   "description": "A React JS Lesson Series",
-  "main": "./index.js",
+  "main": "./index.jsx",
   "scripts": {
     "build": "parcel build ./src/index.html",
     "start": "parcel ./src/index.html -p 8080"
@@ -18,7 +18,8 @@
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.0",
-    "react-router-dom": "^5.1.2"
+    "react-router-dom": "^5.1.2",
+    "react-storage-hooks": "^4.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",

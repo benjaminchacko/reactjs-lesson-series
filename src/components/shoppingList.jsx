@@ -1,5 +1,7 @@
 import React, { useReducer, useRef, Fragment } from "react";
-import { Button} from 'react-bootstrap'
+import { Button } from 'react-bootstrap'
+
+import '../assets/css/shoppingList.css'
 
 export const ShoppingList = () => {
   const inputRef = useRef();
