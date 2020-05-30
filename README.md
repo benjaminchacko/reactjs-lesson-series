@@ -4,7 +4,11 @@
 * [Offical React JS Docs](https://reactjs.org/docs/getting-started.html)
 * [Offical Parcel Bundler Docs](https://parceljs.org/getting_started.html)
 
-### Key Points
+Index.jsx: 
+<img src="assets\images\index.png">
+
+App.jsx:
+<img src="assets\images\app.png">
 
 
 ## How to Use

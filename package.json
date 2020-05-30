@@ -2,7 +2,7 @@
   "name": "react-lesson-series",
   "version": "1.0.0",
   "description": "A React JS Lesson Series",
-  "main": "./index.js",
+  "main": "./index.jsx",
   "scripts": {
     "build": "parcel build index.html",
     "start": "parcel index.html -p 8080"
