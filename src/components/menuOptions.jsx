@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'react-bootstrap'
 
 const useLocalState = (localItem) => {
     const [loc, setstate] = React.useState(localStorage.getItem(localItem))
@@ -42,24 +43,24 @@ export const MenuOptions = () => {
                 <li>Desert: {desert}</li>
             </p>
             <ul>Appetizer Options:
-                <li><button onClick={appetizer1}>Spinach Puffs</button></li>
-                <li><button onClick={appetizer2}>Chicken Wings</button></li>
-                <li><button onClick={appetizer3}>Deviled Eggs</button></li>
-                <li><button onClick={appetizer4}>Jalapeno Poppers</button></li>
+                <li><Button variant="outline-primary" onClick={appetizer1}>Spinach Puffs</Button></li>
+                <li><Button variant="outline-primary" onClick={appetizer2}>Chicken Wings</Button></li>
+                <li><Button variant="outline-primary" onClick={appetizer3}>Deviled Eggs</Button></li>
+                <li><Button variant="outline-primary" onClick={appetizer4}>Jalapeno Poppers</Button></li>
             </ul>
-            <button onClick={resetAppetizer}>Reset Appetizer</button>
+            <Button variant="outline-primary" onClick={resetAppetizer}>Reset Appetizer</Button>
             <ul>Entree Options:
-                <li><button onClick={entree1}>Grilled Chicken and Roasted Carrots</button></li>
-                <li><button onClick={entree2}>Catfish and Steamed Broccolini</button></li>
-                <li><button onClick={entree3}>Salmon and Asparagus</button></li>
-                <li><button onClick={entree4}>Steak and Baked Potato</button></li>
+                <li><Button variant="outline-primary" onClick={entree1}>Grilled Chicken and Roasted Carrots</Button></li>
+                <li><Button variant="outline-primary" onClick={entree2}>Catfish and Steamed Broccolini</Button></li>
+                <li><Button variant="outline-primary" onClick={entree3}>Salmon and Asparagus</Button></li>
+                <li><Button variant="outline-primary" onClick={entree4}>Steak and Baked Potato</Button></li>
             </ul>
-            <button onClick={resetEntree}>Reset Entree</button>
+            <Button variant="outline-primary" onClick={resetEntree}>Reset Entree</Button>
             <ul>Desert Options:
-                <li><button onClick={desert1}>Key Lime Pie</button></li>
-                <li><button onClick={desert2}>Chocolate Lava Cake</button></li>
+                <li><Button variant="outline-primary" onClick={desert1}>Key Lime Pie</Button></li>
+                <li><Button variant="outline-primary" onClick={desert2}>Chocolate Lava Cake</Button></li>
             </ul>
-            <button onClick={resetDesert}>Reset Desert</button>
+            <Button variant="outline-primary" onClick={resetDesert}>Reset Desert</Button>
         </React.Fragment>
     )
 }

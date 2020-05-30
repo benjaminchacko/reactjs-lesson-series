@@ -1,5 +1,6 @@
 // Counter with React.useState Hook
 import React from 'react';
+import {Button} from 'react-bootstrap'
 
 const useLocalState = (localItem) => {
     const [loc, setstate] = React.useState(localStorage.getItem(localItem))
@@ -26,11 +27,11 @@ export const Counter = () => {
         <React.Fragment>
             <h1>Counter</h1>
             <p>You have clicked {count} times</p>
-            <button onClick={addOne}>Add One</button>
-            <button onClick={addFive}>Add Five</button>
-            <button onClick={subtractOne}>Subtract One</button>
-            <button onClick={subtractTen}>Subtract Ten</button>
-            <button onClick={reset}>Reset</button>
+            <Button variant="outline-primary" onClick={addOne}>Add One</Button >
+            <Button variant="outline-primary" onClick={addFive}>Add Five</Button >
+            <Button variant="outline-primary" onClick={subtractOne}>Subtract One</Button >
+            <Button variant="outline-primary" onClick={subtractTen}>Subtract Ten</Button >
+            <Button variant="outline-primary"  onClick={reset}>Reset</Button>
             
         </React.Fragment>
     )

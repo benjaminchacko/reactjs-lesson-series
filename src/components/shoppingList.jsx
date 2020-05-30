@@ -40,11 +40,11 @@ export const ShoppingList = () => {
       <h1>Shopping List</h1>
       <form>
         <input ref={inputRef} />
-        <button onClick={addValue}>Submit</button>
+        <Button variant="outline-primary" onClick={addValue}>Submit</Button>
       </form>
-      <button onClick={
+      <Button onClick={
         () => dispatch({ type: 'clear' })
-      }>Clear</button>
+      }>Clear</Button>
 
       <ul>
         {items.map((item, index) => (
