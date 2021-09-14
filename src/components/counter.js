@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from 'react';
+import { useState, Fragment } from 'react';
 
 export const Counter = () => {
     const [count, setCount] = useState(0);
