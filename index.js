@@ -1,6 +1,6 @@
-import React from "react";
+
 // Option #1 - Importing Whole Module
-// import ReactDOM from "react-dom";
+/* import ReactDOM from "react-dom"; */
 
 // Option #1
 // Importing a "export default"

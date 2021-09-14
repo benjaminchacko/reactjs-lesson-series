@@ -1,10 +1,9 @@
-import React from 'react'
-
+import * as React from 'react';
 const name = "Ben Chacko";
 
 // arrow function - export default - Option #1 in index.js
-/*
-const App = () => {
+
+/* const App = () => {
     return (
         <React.Fragment>
             <p>Hello {name}!</p>
@@ -14,8 +13,8 @@ const App = () => {
 } 
 
 export default App;
-*/
 
+ */
 // inline export - single line - arrow function - Option #2 in index.js
 // export const App = () => <div>Hello {name}!</div>
 
