@@ -1,5 +1,15 @@
 # React JS with Parcel Lesson #1: Introduction to React JS with Parcel Bundler
 
+### Notice to User (September 2021)
+Recently when trying to running this repository, I noticed that I had faulty code and got the following error: 
+
+<img src="assets\images\babel-error.PNG">
+
+After some research and investigation, I found out that I needed to update the Babel NPM packages in the package.json file and then got a success message: 
+
+<img src="assets\images\babel-success.PNG">
+Please feel free to contact me via email - benjaminchacko@outlook.com or connect with me on LinkedIn if this repository is beneficial to you.
+
 ### Important Resources
 * [Offical React JS Docs](https://reactjs.org/docs/getting-started.html)
 * [Offical Parcel Bundler Docs](https://parceljs.org/getting_started.html)
@@ -7,16 +17,13 @@
 ## How to Use
 1. Fork this repository
 2. Clone to your local machine
-3. `npm install` in your terminal to install node-modules
-4. `npm start` to open development in your browser
+3. `yarn install` in your terminal to install node-modules
+4. `yarn start` to open development in your browser
 
 ## Contributions
 
-Any code contributions are welcomed. Check for open issues, look through the project roadmap, and submit a PR. Alternatively, I accept crypto or fiat currency donations:
+Any code contributions are welcomed. Check for open issues, look through the project roadmap, and submit a PR. Alternatively, I accept monetary donations:
 
-[![Donate with Bitcoin](https://en.cryptobadges.io/badge/big/13ij7QZSZVh1wgyumAMqBysaCqg6oicgs2)](https://en.cryptobadges.io/donate/13ij7QZSZVh1wgyumAMqBysaCqg6oicgs2)
-[![Donate with Ethereum](https://en.cryptobadges.io/badge/big/0x198d69c291EBFb5A131d460089A9126c767Df1c8)](https://en.cryptobadges.io/donate/0x198d69c291EBFb5A131d460089A9126c767Df1c8)
-[![Donate with Litecoin](https://en.cryptobadges.io/badge/big/LLzagWsAAa1MPS7NawXrDwLf1nssipAnCE)](https://en.cryptobadges.io/donate/LLzagWsAAa1MPS7NawXrDwLf1nssipAnCE)
 ```bash
 Paypal: paypal.me/benjaminc
 ```
