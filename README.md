@@ -23,7 +23,7 @@ This repository is the full code with my youtube video series: [React JS](https:
         </tr>
         <tr>
             <td>#2</td>
-            <td>Babel Changes, Imports/Exports and Destructuring</td>
+            <td>Imports/Exports and Destructuring</td>
             <td><a href="https://github.com/benjaminchacko/reactjs-lesson-series/tree/lesson-2">Lesson #2</a> </td>
             <td>[To Be Uploaded]</td>
         </tr>
