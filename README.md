@@ -8,5 +8,5 @@ Live Code: <a href="https://reactjs-lessonseries.netlify.app/"> Lesson #5</a>
 ## How to Use
 1. Fork this repository
 2. Clone to your local machine
-3. `npm install` in your terminal to install node-modules
-4. `npm start` to open development in your browser
+3. `yarn install` in your terminal to install node-modules
+4. `yarn start` to open development in your browser
